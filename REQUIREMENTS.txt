@@ -1,9 +1,10 @@
-opencv-python
-mediapipe
-scikit-learn
-pandas
-numpy
-Pillow
+* opencv-python
+* mediapipe
+* scikit-learn
+* pandas
+* numpy
+* Pillow
+
 Optional Packages:
-- matplotlib (for future visualizations)
-- seaborn (if extending with statistical dashboards)
+* matplotlib (for future visualizations)
+* seaborn (if extending with statistical dashboards)
