@@ -33,7 +33,7 @@ TrueTone solves this problem by:
 └── requirements.txt            # Packages needed
 ```
 ### Tech Stack
-*Python 3.7+
+* Python 3.7+
 * MediaPipe – face detection
 * OpenCV – webcam & image processing
 * scikit-learn – color clustering (KMeans)
