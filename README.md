@@ -1,5 +1,5 @@
 # TrueTone: Precision Matching for your Unique Skin
-TrueTone is a computer vision-powered solution designed to help users find their perfect foundation shade using real-time face detection and color analysis. Built with machine learning and YOLOv5, this project provides personalized recommendations from a curated foundation dataset—bridging the gap between digital shopping and personalized beauty.
+TrueTone is a computer vision-powered tool that helps users find their perfect foundation shade by analyzing skin tone through their webcam. It uses MediaPipe for real-time face detection and machine learning-based color clustering to match your skin to a curated dataset of foundation products from top beauty retailers.
 
 ## 💡 Why TrueTone?
 Finding the right foundation online is a frustrating process filled with trial, error, and wasted products. 
@@ -11,66 +11,89 @@ TrueTone solves this problem by:
 
 ## ⚙️ Features
 ### 🧠 Computer Vision & ML
-* YOLOv5-based real-time face detection
-* Skin color segmentation and clustering
-* KMeans clustering for dominant tone extraction
-* Foundation matching using Euclidean distance
+* MediaPipe for real-time face detection
+* Skin tone sampling and KMeans clustering
+* RGB color distance-based shade matching
+* Top 3 closest shades recommended instantly
+  
 ### 🖥️ Real-Time GUI
-* Live webcam feed
-* Face detection bounding box
-* Top foundation shade matches displayed instantly
-###📦 Foundation Dataset
+* Live webcam capture with face detection
+* Interactive window showing shade matches
+* Clear layout with foundation product details
+
+### 📦 Foundation Dataset
 * Curated CSV dataset of foundation shades
 * Contains product names, brands, and RGB color values
 * Built for easy scalability across retailers
 ### 🗂 Project Structure
-TrueTone/
+```
 ├── final_code.py               # Main application logic
 ├── Final_Foundation_dataset.csv # Curated foundation shade dataset
 ├── README.md                   # Documentation
 └── requirements.txt            # Dependencies (create this with pip freeze)
-###🧪 Tech Stack
-* Python 3.7+
-* OpenCV – for image and video processing
-* YOLOv5 – for face detection
-* scikit-learn – for color clustering
-* Tkinter – for the GUI
-* Pandas, NumPy – for data handling
-###🚀 How to Run the Code
+```
+### 🧪 Tech Stack
+*Python 3.7+
+* MediaPipe – face detection
+* OpenCV – webcam & image processing
+* scikit-learn – color clustering (KMeans)
+* Tkinter – GUI interface
+* Pandas, NumPy – data handling
+  
+### 🚀 How to Run the Code
 1. Clone the Repo
+   ```
    git clone https://github.com/yourusername/truetone.git
    cd truetone
-2. Create Virtual Environment
+   ```
+3. Create Virtual Environment
+   ```
    python -m venv venv
    python -m venv venv
-   # Windows
+   Windows
    venv\Scripts\activate
-   # macOS/Linux
+   macOS/Linux
    source venv/bin/activate
-3. Install Dependencies
+   ```
+5. Install Dependencies
    Make sure you have all required libraries:
+   ```
    pip install -r requirements.txt
+   ```
    If requirements.txt isn't available, you can manually install:
+   ```
    pip install opencv-python scikit-learn pandas numpy pillow
    For YOLOv5, follow installation instructions from YOLOv5 GitHub
-4. Run the App
+   ```
+7. Run the App
+   ```
    python final_code.py
-###📊 Dataset
+   ```
+
+### 🖥️ GUI Walkthrough
+* Live feed from your webcam
+* Face detection via MediaPipe
+* Skin color extracted from cheek regions
+* Best-match foundation shades displayed with:
+* Brand & product name
+  * RGB preview swatch
+    
+### 📊 Dataset
 The Final_Foundation_dataset.csv includes:
 * Brand & product names
 * Shade names
 * Corresponding RGB values
-* Pre-processed for direct color comparison
+* Used to match user skin color via color distance
 
-###🎯 Use Case Scenarios
+### 🎯 Use Case Scenarios
 * 💄 Users: Try on makeup virtually before purchasing
 * 🛍️ Retailers: Embed this for personalized customer experiences
 * 🧪 Researchers: Experiment with skin detection, tone mapping, and dataset expansion
 
-###🤝 Contributing
+### 🤝 Contributing
 This project was developed as part of a AI and Machine Learning class. Contributions are welcome! Please feel free to submit pull requests or open issues for improvements.
 
-###📄 License
+### 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 ###👥 Authors
