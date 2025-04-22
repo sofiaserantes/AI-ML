@@ -30,8 +30,8 @@ TrueTone solves this problem by:
 ├── final_code.py               # Main application logic
 ├── Final_Foundation_dataset.csv # Curated foundation shade dataset
 ├── README.md                   # Documentation
-└── packages.txt
-└── requirements.txt
+└── packages.txt                # Packages needed
+└── requirements.txt            # Requirements needed
 ```
 ### Tech Stack
 *Python 3.7+
