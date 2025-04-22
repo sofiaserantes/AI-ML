@@ -4,3 +4,6 @@ scikit-learn
 pandas
 numpy
 Pillow
+Optional Packages:
+- matplotlib (for future visualizations)
+- seaborn (if extending with statistical dashboards)
