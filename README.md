@@ -1,7 +1,7 @@
 # TrueTone: Precision Matching for your Unique Skin
 TrueTone is a computer vision-powered tool that helps users find their perfect foundation shade by analyzing skin tone through their webcam. It uses MediaPipe for real-time face detection and machine learning-based color clustering to match your skin to a curated dataset of foundation products from top beauty retailers.
 
-## 💡 Why TrueTone?
+## Why TrueTone?
 Finding the right foundation online is a frustrating process filled with trial, error, and wasted products. 
 TrueTone solves this problem by:
 * Capturing your skin tone via webcam
@@ -9,30 +9,30 @@ TrueTone solves this problem by:
 * Matching it with the closest foundation shades from top beauty retailers
 * Providing a smooth and user-friendly GUI experience
 
-## ⚙️ Features
-### 🧠 Computer Vision & ML
+## Features
+### Computer Vision & ML
 * MediaPipe for real-time face detection
 * Skin tone sampling and KMeans clustering
 * RGB color distance-based shade matching
 * Top 3 closest shades recommended instantly
   
-### 🖥️ Real-Time GUI
+### Real-Time GUI
 * Live webcam capture with face detection
 * Interactive window showing shade matches
 * Clear layout with foundation product details
 
-### 📦 Foundation Dataset
+### Foundation Dataset
 * Curated CSV dataset of foundation shades
 * Contains product names, brands, and RGB color values
 * Built for easy scalability across retailers
-### 🗂 Project Structure
+###  Project Structure
 ```
 ├── final_code.py               # Main application logic
 ├── Final_Foundation_dataset.csv # Curated foundation shade dataset
 ├── README.md                   # Documentation
 └── requirements.txt            # Dependencies (create this with pip freeze)
 ```
-### 🧪 Tech Stack
+### Tech Stack
 *Python 3.7+
 * MediaPipe – face detection
 * OpenCV – webcam & image processing
@@ -40,7 +40,7 @@ TrueTone solves this problem by:
 * Tkinter – GUI interface
 * Pandas, NumPy – data handling
   
-### 🚀 How to Run the Code
+### How to Run the Code
 1. Clone the Repo
    ```
    git clone https://github.com/yourusername/truetone.git
@@ -70,7 +70,7 @@ TrueTone solves this problem by:
    python final_code.py
    ```
 
-### 🖥️ GUI Walkthrough
+### GUI Walkthrough
 * Live feed from your webcam
 * Face detection via MediaPipe
 * Skin color extracted from cheek regions
@@ -78,32 +78,32 @@ TrueTone solves this problem by:
 * Brand & product name
   * RGB preview swatch
     
-### 📊 Dataset
+### Dataset
 The Final_Foundation_dataset.csv includes:
 * Brand & product names
 * Shade names
 * Corresponding RGB values
 * Used to match user skin color via color distance
 
-### 🎯 Use Case Scenarios
-* 💄 Users: Try on makeup virtually before purchasing
-* 🛍️ Retailers: Embed this for personalized customer experiences
-* 🧪 Researchers: Experiment with skin detection, tone mapping, and dataset expansion
+### Use Case Scenarios
+* Users: Try on makeup virtually before purchasing
+* Retailers: Embed this for personalized customer experiences
+* Researchers: Experiment with skin detection, tone mapping, and dataset expansion
 
-### 🤝 Contributing
+### Contributing
 This project was developed as part of a AI and Machine Learning class. Contributions are welcome! Please feel free to submit pull requests or open issues for improvements.
 
-### 📄 License
+### License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-###👥 Authors
+### Authors
 * Tessa Correig
 * Bernarda Andrade
 * Paula Evangelista
 * Niccoló Pragliola
 * Sofía Serantes
 
-###🙏 Acknowledgments
+### Acknowledgments
 * RUBÉN SÁNCHEZ GARCÍA for guidance and support
 * IE University AI and Machine Learning Course
 
