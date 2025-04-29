@@ -22,12 +22,12 @@ TrueTone solves this problem by:
 * Clear layout with foundation product details
 
 ### Foundation Dataset
-* Curated CSV dataset of foundation shades
+* CSV dataset of foundation shades
 * Contains product names, brands, and RGB color values
 * Built for easy scalability across retailers
 ###  Project Structure
 ```
-├── final_code.py               # Main application logic
+├── final_version_code.py               # Main application logic
 ├── Final_Foundation_dataset.csv # Curated foundation shade dataset
 ├── README.md                   # Documentation
 └── requirements.txt            # Packages needed
@@ -67,7 +67,7 @@ TrueTone solves this problem by:
    ```
 7. Run the App
    ```
-   python final_code.py
+   python final_version_code.py
    ```
 
 ### GUI Walkthrough
