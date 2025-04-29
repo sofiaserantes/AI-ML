@@ -33,12 +33,12 @@ TrueTone solves this problem by:
 └── requirements.txt            # Packages needed
 ```
 ### Tech Stack
-* Python 3.7+
-* MediaPipe – face detection
-* OpenCV – webcam & image processing
-* scikit-learn – color clustering (KMeans)
-* Tkinter – GUI interface
-* Pandas, NumPy – data handling
+*numpy==1.25.0
+* opencv-python==4.9.0.66
+* mediapipe==0.10.0
+* pillow==10.0.0
+* scikit-learn==1.3.0
+* pandas==2.1.0
   
 ### How to Run the Code
 1. Clone the Repo
