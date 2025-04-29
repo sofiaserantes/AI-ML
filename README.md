@@ -33,7 +33,7 @@ TrueTone solves this problem by:
 └── requirements.txt            # Packages needed
 ```
 ### Tech Stack
-*numpy==1.25.0
+* numpy==1.25.0
 * opencv-python==4.9.0.66
 * mediapipe==0.10.0
 * pillow==10.0.0
