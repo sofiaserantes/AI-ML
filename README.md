@@ -58,7 +58,6 @@ TrueTone solves this problem by:
 3. Create Virtual Environment
    ```
    python -m venv venv
-   python -m venv venv
    Windows
    venv\Scripts\activate
    macOS/Linux
