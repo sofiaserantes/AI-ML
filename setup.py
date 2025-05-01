@@ -25,11 +25,14 @@ setup(
         ]
     },
 
-    # ← Add them here:
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.7',
-)
+    project_urls={
+        'Source': 'https://github.com/sofiaserantes/AI-ML--Final-Project',
+        'Issue Tracker': 'https://github.com/sofiaserantes/AI-ML--Final-Project/issues',
+    },
+     python_requires='>=3.6',
+ )
