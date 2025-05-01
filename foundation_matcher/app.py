@@ -1,5 +1,6 @@
 # final_version.py
 import os
+from importlib import resources
 import cv2
 import numpy as np
 import tkinter as tk
@@ -12,7 +13,8 @@ import webbrowser
 from sklearn.cluster import KMeans
 
 #dataset
-DATASET_PATH = "/Users/niccolopragliola/PycharmProjects/AI II/myenv/Final_Foundation_Dataset.csv"
+with resources.path("foundation_matcher.data", "Final_Foundation_dataset.csv") as p:
+    DATASET_PATH = str(p)
 
 # Utility Functions for Image Processing
 
