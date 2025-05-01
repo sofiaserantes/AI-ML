@@ -76,7 +76,7 @@ TrueTone solves this problem by:
    ```
 7. Run the App
    ```
-   python final_version_code.py
+   python app.py
    ```
 
 ### GUI Walkthrough
