@@ -238,12 +238,3 @@ def open_results(skin_hex):
 root.bind('<Return>',lambda e:capture_image())
 update_frame()
 root.mainloop()
-
-def main():
-    # all the code that currently lives at top‐level,
-    # up through starting the Tkinter mainloop,
-    # should be indented under here.
-
-if __name__ == "__main__":
-    main()
-
