@@ -46,24 +46,50 @@ TrueTone solves this problem by:
 * pandas==2.1.0
   
 ### How to Run the Code
-1. Clone the Repo
-   ```
-   git clone https://github.com/sofiaserantes/AI-ML--Final-Project.git
-    cd AI-ML--Final-Project
-    python -m venv venv
-    source venv/bin/activate   # or venv\Scripts\activate on Windows
-    pip install .
-    foundation-match
-   ```
-3. Create Virtual Environment
+Follow these steps in your terminal or PowerShell to get the app running:
+1. Create Virtual Environment
    ```
    python -m venv venv
+   ```
    Windows
+   ```
    venv\Scripts\activate
+   ```
    macOS/Linux
+   ```
    source venv/bin/activate
    ```
-5. Install Dependencies
+2. Activate the virtual environment
+   Windows (PowerShell)
+   ```
+   source venv/bin/activate
+   ```
+   Windows (cmd.exe)
+   ```
+   venv\Scripts\activate
+   ```
+   macOS/Linux
+   ```
+   source venv/bin/activate
+   ```
+3. Upgrade packaging tools
+    ```
+    pip install --upgrade pip setuptools wheel
+    ```
+4. Install the project in editable mode
+   ```
+   pip install -e .
+   ```
+5. Launch the app
+   Any OS, via console script
+   ```
+   foundation-match
+   ```
+   Or directly from source
+   ```
+   python -m foundation_matcher.app
+   ```
+7. Install Dependencies (optional)
    Make sure you have all required libraries:
    ```
    pip install -r requirements.txt
@@ -72,10 +98,6 @@ TrueTone solves this problem by:
    ```
    pip install opencv-python scikit-learn pandas numpy pillow
    For YOLOv5, follow installation instructions from YOLOv5 GitHub
-   ```
-7. Run the App
-   ```
-   python app.py
    ```
 
 ### GUI Walkthrough
