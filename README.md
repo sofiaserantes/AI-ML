@@ -27,10 +27,15 @@ TrueTone solves this problem by:
 * Built for easy scalability across retailers
 ###  Project Structure
 ```
-├── final_version_code.py               # Main application logic
-├── Final_Foundation_dataset.csv # Curated foundation shade dataset
+├──foundation_matcher
+  ├──data/
+   ├──Final_Foundation_dataset.csv # Curated foundation shade dataset
+  ├── app.py               # Main application logic
+  ├── __init__.py
 ├── README.md                   # Documentation
 └── requirements.txt            # Packages needed
+├── setup.py
+├──MANIFEST.in
 ```
 ### Tech Stack
 * numpy==1.25.0
@@ -43,8 +48,12 @@ TrueTone solves this problem by:
 ### How to Run the Code
 1. Clone the Repo
    ```
-   git clone https://github.com/yourusername/truetone.git
-   cd truetone
+   git clone https://github.com/sofiaserantes/AI-ML--Final-Project.git
+    cd AI-ML--Final-Project
+    python -m venv venv
+    source venv/bin/activate   # or venv\Scripts\activate on Windows
+    pip install .
+    foundation-match
    ```
 3. Create Virtual Environment
    ```
