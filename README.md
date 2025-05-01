@@ -27,7 +27,7 @@ TrueTone solves this problem by:
 * Built for easy scalability across retailers
 ###  Project Structure
 ```
-├──foundation_matcher
+├──foundation_matcher/
   ├──data/
    ├──Final_Foundation_dataset.csv # Curated foundation shade dataset
   ├── app.py               # Main application logic
