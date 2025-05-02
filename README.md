@@ -1,5 +1,5 @@
 # TrueTone: Precision Matching for your Unique Skin
-TrueTone is a computer vision-powered tool that helps users find their perfect foundation shade by analyzing skin tone through their webcam. It uses MediaPipe for real-time face detection and machine learning-based color clustering to match your skin to a curated dataset of foundation products from top beauty retailers.
+TrueTone is a computer vision-powered tool that helps users find their perfect foundation shade by analyzing skin tone through their webcam. It uses MediaPipe for real-time face detection and machine learning-based color clustering to match your skin to a curated dataset of foundation products from top beauty retailers. H
 
 ## Why TrueTone?
 Finding the right foundation online is a frustrating process filled with trial, error, and wasted products. 
