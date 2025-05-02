@@ -55,6 +55,7 @@ git clone https://github.com/your-username/AI-ML--Final-Project.git
 cd AI-ML—Final-Project
 ```
 2. Create and activate a virtual environment
+
 macOS/Linux:
 ```
 python3 -m venv env
