@@ -47,59 +47,59 @@ TrueTone solves this problem by:
   
 ### How to Run the Code
 Follow these steps in your terminal or PowerShell to get the app running:
-1. Create Virtual Environment
-   ```
-   python -m venv venv
-   ```
-   Windows
-   ```
-   venv\Scripts\activate
-   ```
-   macOS/Linux
-   ```
-   source venv/bin/activate
-   ```
-2. Activate the virtual environment
-   Windows (PowerShell)
-   ```
-   source venv/bin/activate
-   ```
-   Windows (cmd.exe)
-   ```
-   venv\Scripts\activate
-   ```
-   macOS/Linux
-   ```
-   source venv/bin/activate
-   ```
-3. Upgrade packaging tools
-    ```
-    pip install --upgrade pip setuptools wheel
-    ```
-4. Install the project in editable mode
-   ```
-   pip install -e .
-   ```
-5. Launch the app
-   Any OS, via console script
-   ```
-   foundation-match
-   ```
-   Or directly from source
-   ```
-   python -m foundation_matcher.app
-   ```
-7. Install Dependencies (optional)
-   Make sure you have all required libraries:
-   ```
-   pip install -r requirements.txt
-   ```
-   If requirements.txt isn't available, you can manually install:
-   ```
-   pip install opencv-python scikit-learn pandas numpy pillow
-   For YOLOv5, follow installation instructions from YOLOv5 GitHub
-   ```
+1. Clone the repository
+```
+git clone https://github.com/your-username/AI-ML--Final-Project.git
+```
+```
+cd AI-ML—Final-Project
+```
+2. Create and activate a virtual environment
+macOS/Linux:
+```
+python3 -m venv env
+```
+```
+source env/bin/activate
+```
+Windows (cmd.exe):
+```
+python -m venv env
+```
+```
+env\Scripts\activate
+```
 
+Windows (PowerShell):
+```
+python -m venv env
+```
+```
+.\env\Scripts\activate
+```
+
+3. Upgrade build tools
+```
+pip install --upgrade pip setuptools wheel
+```
+4. Install dependencies
+```
+pip install -r requirements.txt
+```
+Warning: If opencv-python fails to install, make sure you're not using Anaconda and that you have cmake and system build tools installed.
+
+5. Run the app
+From source:
+```
+python -m foundation_matcher.app
+```
+Or after editable install:
+```
+pip install -e .
+```
+```
+foundation-match
+```
 ### GUI Walkthrough
 * Live feed from your webcam
 * Face detection via MediaPipe
